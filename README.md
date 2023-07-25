@@ -2,8 +2,6 @@
 
 >Don't mess with Tuskerr!
 
-A common task api supporting recoverable/memorable, cycle/once, update/retrive task.
-
 业务开发中很典型的一个场景就是批处理，通常的流程是：获取任务->处理->根据处理进度取下一批任务->处理下一批任务，循环往复，直至任务处理完。
 
 虽然看起来很简单，但是如果要做到可扩展和高性能还是需要考虑到一些问题。比如，如何将任务合理地分配给每台机器？每台机器又如何分配个每个线程？如何跟踪任务进度？如何实现每个任务至少一次、至多一次、恰好一次的处理要求？
