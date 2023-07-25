@@ -1,4 +1,4 @@
-package com.ctrip.train.flight.common.job.support.com.iqexception.tool.request;
+package com.ctrip.train.flight.common.job.support.com.iqexception.common.request;
 
 import com.ctrip.train.tieyouflight.common.log.CLogger;
 import com.ctrip.train.tieyouflight.common.response.BizException;

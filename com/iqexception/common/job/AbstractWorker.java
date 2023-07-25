@@ -2,7 +2,7 @@ package com.iqexception.tool.job;
 
 import com.ctrip.framework.foundation.Foundation;
 import com.ctrip.train.flight.common.common.util.CacheUtil;
-import com.ctrip.train.flight.common.job.support.com.iqexception.tool.job.IWorkerBiz;
+import com.ctrip.train.flight.common.job.support.com.iqexception.common.job.IWorkerBiz;
 import com.ctrip.train.tieyouflight.common.credis.CacheManager;
 import com.ctrip.train.tieyouflight.common.log.CLogger;
 import com.ctrip.train.tieyouflight.common.utils.AsyncUtil;
